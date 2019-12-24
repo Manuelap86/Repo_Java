@@ -9,8 +9,15 @@ public class Homework2 {
         String myStatement = "I am a programmer";
         System.out.println(myStatement);
 
+       // String extractedString = myStatement.substring(12, 22);
+        //System.out.println("Extracted Word:" + extractedString);
+
         String [] words = myStatement.split("programmer", 4);
         System.out.println("programmer");
+
+        String [] wordsS = myStatement.split("");
+        System.out.println("Number of words: " + wordsS.length);
+
 
         int countWords = myStatement.split("\\w+").length ;
         System.out.println(countWords);
@@ -18,7 +25,7 @@ public class Homework2 {
         String myStatementNew = myStatement.replace('r','f');
         System.out.println(myStatementNew);
 
-        String myName = "Manuela Pimentel";
+        String myName = "Manuela";
         System.out.println(myName);
         int count = 0;
         for(char c: myName.toCharArray()){count++;}
@@ -39,7 +46,7 @@ public class Homework2 {
         int size = names.length;
         System.out.println("The Arrey Lenght is:" + size);
 
-        Boolean isEqual = names[1].equals("John");
+        boolean isEqual = names[1].equals("John");
         System.out.println(isEqual);
 
         String[] arrayFriends = new String[]{"Vika", "Olya", "Mila", "Ronni", "Yulya"};
