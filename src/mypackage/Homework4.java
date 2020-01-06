@@ -50,7 +50,7 @@ public class Homework4 {
 
                 }
                     System.out.println("Wash Station");
-                    if(modes.equals("R")){
+                    if(modes.equals("R")) {
 
                     }
                         System.out.println("Reverse");
