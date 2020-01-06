@@ -36,14 +36,23 @@ public class Homework4 {
         // * If mode is incorrect then print me invalid mode type, please check your car mode
 
         String[] modes = {"P","D","N","R"};
+        char gear;
 
-        if(modes.equals("P"))
+        if(modes.equals("P")){
+
+        }
             System.out.println("I Can Parallel Park");
-            if(modes.equals("D"))
+            if(modes.equals("D")) {
+            }
+
                 System.out.println("I can put to Snow,Sport or Regular Type");
-                if(modes.equals("N"))
+                if(modes.equals("N")){
+
+                }
                     System.out.println("Wash Station");
-                    if(modes.equals("R"))
+                    if(modes.equals("R")){
+
+                    }
                         System.out.println("Reverse");
 
 
