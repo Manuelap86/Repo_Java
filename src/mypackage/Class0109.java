@@ -2,8 +2,8 @@ package mypackage;
 
 import java.util.Scanner;
 
-public class Class0109 {
-    public static void main(String[] args){
+//public class Class0109 {
+   // public static void main(String[] args){
 
        // String name;
       //  double height;
@@ -61,10 +61,10 @@ public class Class0109 {
 
     //    String words = " Meow";
 
-       int [] mark = {10, 20,30};
-      for(int mrk : mark){
-        System.out.println("Mark :" + mrk);
-        }
+//       int [] mark = {10, 20,30};
+//      for(int mrk : mark){
+//        System.out.println("Mark :" + mrk);
+//        }
 
    //int C = 30;
   // int D = 30;
@@ -78,10 +78,5 @@ public class Class0109 {
 
       //  Take user input for Fans name and based on name print their fav sports name
 
-        Scanner scan = new Scanner(System.in); //use case method
+       // Scanner scan = new Scanner(System.in); //use case method
 
-
-
-
-    }
-}

@@ -106,7 +106,7 @@ public class Homework6 {
 //    9. Given two arrays, one contains total marks of 11 students of a class; second array contains their names in same order as marks-array.
         //*    Create a method which takes both array as parameters, and returns name of student who scored maximum marks in the class.
 //*    For above example : method should return “Hannah”
-        
+
         double[] sMarks = {90, 89, 91, 67, 87, 88, 93, 90, 100, 81, 54};
         String [] sNames = {"Happy", "Peace" , "Jesse", "Kaitlin" , "Amir", "Donald", "Steven", "Vicky", "Hannah" , "David", "Gia"};
 
